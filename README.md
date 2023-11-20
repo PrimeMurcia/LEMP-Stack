@@ -176,6 +176,7 @@ location / {
 
 - You should see MySQL 5.7 repository at the bottom of the list.
 
+![Image of NGINX deploy](/image/mysql6.png)
 
 ## Reference
 
