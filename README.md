@@ -141,7 +141,7 @@ location / {
 
 `wget https://dev.mysql.com/get/mysql-apt-config_0.8.12-1_all.deb`
 
-!(image/mysql1.png)
+![Image of NGINX deploy](/image/nginx_status.PNG)
 
 * 
 
