@@ -135,7 +135,7 @@ location / {
 
 ## Step by Step How To Install Mysql 5.7 
 
-### - 1 - Download and install MySQL server and client
+### - 1 - Step 1: Add the MySQL 5.7 APT Repository
 
   
 ## Reference
