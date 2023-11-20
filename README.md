@@ -36,7 +36,7 @@ PHP version 5.6
 ` systemctl status nginx`
 
 
-*if Nginx is already running, the status will appear as shown above
+-if Nginx is already running, the status will appear as shown above
 
 - If Nginx has not started yet  : 
 
@@ -135,7 +135,7 @@ location / {
 
 ## Step by Step How To Install Mysql 5.7 
 
-- 1 - Download and install MySQL server and client
+- ###1 - Download and install MySQL server and client
 
   
 ## Reference
