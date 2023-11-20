@@ -133,6 +133,8 @@ location / {
 
 `sudo systemctl restart nginx`
 
+## Step by Step How To Install Mysql 5.7 
+
 ## Reference
 
 https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04
