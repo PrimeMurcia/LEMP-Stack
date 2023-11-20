@@ -6,7 +6,7 @@ CodeIgniter is a powerful PHP framework with a very small footprint, built for d
 ## Requirements
 
 App : 
-- Install Nginx or Apache Server
+- Install Nginx 
 - Install PHP-fpm (FastCGI Process Manager)
 - Install Mysql
 
