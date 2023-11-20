@@ -137,6 +137,8 @@ location / {
 
 ## Reference
 
-https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04
+[https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04](https://ajayogal.wordpress.com/2017/06/05/how-to-install-linux-nginx-mysql-php-5-6-lemp-stack-on-ubuntu-16-04/)https://ajayogal.wordpress.com/2017/06/05/how-to-install-linux-nginx-mysql-php-5-6-lemp-stack-on-ubuntu-16-04/
 
 https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04
+
+https://www.devart.com/dbforge/mysql/how-to-install-mysql-on-ubuntu/
