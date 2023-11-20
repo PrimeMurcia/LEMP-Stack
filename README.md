@@ -144,7 +144,19 @@ location / {
 
 ![Image of NGINX deploy](/image/mysql1.png)
 
+- 1.2 After the MySQL package has been successfully downloaded, install it:
 
+`sudo dpkg -i mysql-apt-config_0.8.12-1_all.deb`
+
+![Image of NGINX deploy](/image/mysql2.png)
+
+- 1.3 Next, select Ubuntu Bionic.
+
+![Image of NGINX deploy](/image/mysql3.png)
+
+- After that, select the MySQL Server & Cluster option. Then, select mysql-5.7 and finally select Ok.
+
+![Image of NGINX deploy](/image/mysql4.png)
 ## Reference
 
 [https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04](https://ajayogal.wordpress.com/2017/06/05/how-to-install-linux-nginx-mysql-php-5-6-lemp-stack-on-ubuntu-16-04/)https://ajayogal.wordpress.com/2017/06/05/how-to-install-linux-nginx-mysql-php-5-6-lemp-stack-on-ubuntu-16-04/
