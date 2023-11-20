@@ -98,31 +98,36 @@ If PHP is already running, there is an info for your php on your nginx server on
 
 ```php
 
-server { listen 8080 default_server; listen [::]:8080 default_server;
+server {
+	listen 80 default_server;
+	listen [::]:80 default_server;
 
-root /var/www/codeigniter/public;
+	root /var/www/html/Code_iginter_files;
 
-# Add index.php to the list if you are using PHP
-index index.php index.html index.htm index.nginx-debian.html;
+	# Add index.php to the list if you are using PHP
+	index index.php index.html index.htm;
 
-server_name _;
+	server_name _;
 
 location / {
-	# First attempt to serve request as file, then
-	# as directory, then fall back to displaying a 404.
 	try_files $uri $uri/ /index.php;
 }
 
-# pass PHP scripts to FastCGI server
-#
-location ~ \.php$ {
-	include snippets/fastcgi-php.conf;
+	# pass PHP scripts to FastCGI server
+	#
+	location ~ \.php$ {
+		include snippets/fastcgi-php.conf;
+		fastcgi_pass unix:/run/php/php5.6-fpm.sock;
+	}
 
-#	# With php-fpm (or other unix sockets):
-	fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;
-#	# With php-cgi (or other tcp sockets):
-#	fastcgi_pass 127.0.0.1:9000;
+	# deny access to .htaccess files, if Apache's document root
+
+	location ~ /\.ht {
+		deny all;
+	}
 }
+
+
 
 ```
 
