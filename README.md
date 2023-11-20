@@ -35,7 +35,7 @@ PHP version 5.6
 
 ` systemctl status nginx`
 
-![Image of nginx_CI deploy](/img/nginx_status.PNG)
+![Image of nginx_CI deploy](image/nginx_status.png)
 
 -if Nginx is already running, the status will appear as shown above
 
