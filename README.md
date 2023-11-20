@@ -160,9 +160,22 @@ location / {
 
 - 1.4 Next, update the APT repository:
 
-![Image of NGINX deploy](/image/mysql3.png)
+![Image of NGINX deploy](/image/mysql5.png)
 
 * Note: If you encounter the "signature couldn't be verified" error like this one: NO_PUBKEY 467B942D3A79BD29, you will need to import the missing gpg key by running the following command:
+
+`sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 467B942D3A79BD29`
+
+- 1.5 Then execute the apt update again:
+
+`sudo apt update`
+
+- To check whether MySQL 5.7 repository has been successfully installed, execute:
+
+`sudo apt-cache policy mysql-server`
+
+- You should see MySQL 5.7 repository at the bottom of the list.
+
 
 ## Reference
 
