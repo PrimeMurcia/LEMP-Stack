@@ -133,17 +133,6 @@ location / {
 
 `sudo systemctl restart nginx`
 
-
-
-
-
-
-`composer update`
-
-
-![Image of berhasil deploy](/img/capture2.PNG)
-
-
 ## Reference
 
 https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04
