@@ -44,11 +44,13 @@ PHP version 5.6
 
 - Install PHP-fpm :
 
-` sudo apt update`
+` sudo apt-get install python-software-properties`
 
-` sudo apt install php-fpm`
+` sudo add-apt-repository ppa:ondrej/php`
 
-` sudo systemctl restart nginx.service`
+` sudo apt-get update`
+
+
 
 - Change Access to folder `var/www/` : 
 
