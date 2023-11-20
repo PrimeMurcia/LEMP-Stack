@@ -177,6 +177,14 @@ location / {
 
 ![Image of NGINX deploy](/image/mysql6.png)
 
+### Step 2: Install MySQL 5.7
+
+- 2.1 Now that you have a MySQL 5.7 repository in your system, you can proceed to install it. For this, run the following command:
+
+`sudo apt install -f mysql-client=5.7* mysql-community-server=5.7* mysql-server=5.7*1`
+
+- 2.2 Press ENTER to begin the installation and set the root password when asked.
+  
 ## Reference
 
 [https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04](https://ajayogal.wordpress.com/2017/06/05/how-to-install-linux-nginx-mysql-php-5-6-lemp-stack-on-ubuntu-16-04/)https://ajayogal.wordpress.com/2017/06/05/how-to-install-linux-nginx-mysql-php-5-6-lemp-stack-on-ubuntu-16-04/
