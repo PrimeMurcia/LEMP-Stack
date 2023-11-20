@@ -57,6 +57,8 @@ PHP version 5.6
 
 ` sudo chmod -R 755 /var/www/html/code_ingiter_files`
 
+` sudo nano /etc/nginx/sites-available/default`
+
 - Change config on file `/etc/nginx/sites-available/default` :
 
 Add this line on Server block : `index index.php index.html index.htm index.nginx-debian.html;`
@@ -66,7 +68,7 @@ PUse this Line below on PHP Block :
 ```php
 location ~ \.php$ {
     include snippets/fastcgi-php.conf;  
-    fastcgi_pass unix:/run/php/php7.4-fpm.sock; 
+    fastcgi_pass unix:/run/php/php5.6-fpm.sock; 
 }
 ```
 
