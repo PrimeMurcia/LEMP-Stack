@@ -157,6 +157,13 @@ location / {
 - After that, select the MySQL Server & Cluster option. Then, select mysql-5.7 and finally select Ok.
 
 ![Image of NGINX deploy](/image/mysql4.png)
+
+- 1.4 Next, update the APT repository:
+
+![Image of NGINX deploy](/image/mysql3.png)
+
+* Note: If you encounter the "signature couldn't be verified" error like this one: NO_PUBKEY 467B942D3A79BD29, you will need to import the missing gpg key by running the following command:
+
 ## Reference
 
 [https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04](https://ajayogal.wordpress.com/2017/06/05/how-to-install-linux-nginx-mysql-php-5-6-lemp-stack-on-ubuntu-16-04/)https://ajayogal.wordpress.com/2017/06/05/how-to-install-linux-nginx-mysql-php-5-6-lemp-stack-on-ubuntu-16-04/
