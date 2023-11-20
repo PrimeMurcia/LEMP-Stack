@@ -86,13 +86,7 @@ If PHP is already running, there is an info for your php on your nginx server on
 
 ## Step by Step to Deploy / Install CodeIgniter on NGINX
 
-- install composer : 
-
-`sudo apt install composer`
-
-`sudo apt install php-curl`
-
-`sudo apt install php-intl`
+`sudo /etc/nginx/sites-available/codeigniter.conf`
 
 - Create Config file on `/etc/nginx/sites-available/codeigniter.conf` : 
 
@@ -139,15 +133,9 @@ location / {
 
 `sudo systemctl restart nginx`
 
-- Install CodeIgniter using composer : 
 
-Open Directory Root :
 
-`cd /var/www/`
 
-Install CodeIgniter : 
-
-`composer create-project codeigniter4/appstarter [your-project-name]`
 
 
 `composer update`
