@@ -198,7 +198,7 @@ location / {
 
 ### Step 3: Run the script.
 
-./lemp.sh
+`./lemp.sh`
 
 ## Reference
 
