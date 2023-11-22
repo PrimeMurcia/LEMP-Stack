@@ -185,7 +185,19 @@ location / {
 `sudo apt install -f mysql-client=5.7* mysql-community-server=5.7* mysql-server=5.7*1`
 
 - 2.2 Press ENTER to begin the installation and set the root password when asked.
-  
+
+## Automated installation LEMP
+
+### Step 1: Download the installer script.
+
+### Step 2: Make the script executable
+
+`chmod +x lemp.sh`
+
+### Step 3: Run the script.
+
+./lemp.sh
+
 ## Reference
 
 [https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04](https://ajayogal.wordpress.com/2017/06/05/how-to-install-linux-nginx-mysql-php-5-6-lemp-stack-on-ubuntu-16-04/)https://ajayogal.wordpress.com/2017/06/05/how-to-install-linux-nginx-mysql-php-5-6-lemp-stack-on-ubuntu-16-04/
