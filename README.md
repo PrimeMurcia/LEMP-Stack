@@ -190,6 +190,8 @@ location / {
 
 ### Step 1: Download the installer script.
 
+`wget https://raw.githubusercontent.com/Primepogi/LEMP-Stack/main/lemp.sh`
+
 ### Step 2: Make the script executable
 
 `chmod +x lemp.sh`
