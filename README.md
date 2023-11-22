@@ -4,8 +4,10 @@
 CodeIgniter is a powerful PHP framework with a very small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications. [official site](http://codeigniter.com).
 
 ## Requirements
+
 OS :
 - Ubuntu 22.04
+  
 App : 
 - Install Nginx 
 - Install PHP-fpm 5.6 (FastCGI Process Manager)
