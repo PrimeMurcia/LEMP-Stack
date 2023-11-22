@@ -13,8 +13,6 @@ App :
 - Install PHP-fpm 5.6 (FastCGI Process Manager)
 - Install Mysql 5.7
 
-PHP version 5.6 
-
 ## Step by Step How To Install NGINX , PHP
 
 - Install NGINX Server : 
