@@ -1,0 +1,26 @@
+#  sudo nano /etc/nginx/nginx.conf
+#  add the additional Configure under http
+
+        ##
+        # Additional Security Configure Created By Prime Murcia 
+        ##
+        
+        server_tokens off;
+#        add_header Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-s>
+        limit_req_zone $binary_remote_addr zone=one:10m rate=1r/s;
+        add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
+        add_header X-Frame-Options SAMEORGIN;
+        add_header X-Content-Type-Options "nosniff" always;
+        proxy_hide_header X-Runtime;
+        proxy_hide_header X-Powered-By;
+
+
+#  sudo nano /etc/nginx/sites-available/default 
+#  
+
+#    location / {
+        limit_req zone=one burst=5;
+
+        # Your usual configuration goes here
+        # ...
+#    }
