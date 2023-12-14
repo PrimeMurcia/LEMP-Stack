@@ -3,10 +3,11 @@
 
         ##
         # Additional Security Configure Created By Prime Murcia 
+        # Keep in mind that implementing Content-Security-Policy could potentially block plugins, code, and CSS. It's important to review these elements before applying Content-Security-Policy.
         ##
         
         server_tokens off;
-#        add_header Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-s>
+        add_header Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-s>
         limit_req_zone $binary_remote_addr zone=one:10m rate=1r/s;
         add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
         add_header X-Frame-Options SAMEORGIN;
