@@ -1,4 +1,4 @@
-i#  sudo nano /etc/nginx/nginx.conf
+#  sudo nano /etc/nginx/nginx.conf
 #  add the additional Configure under http
 
         ##
